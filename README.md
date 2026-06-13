@@ -1,24 +1,33 @@
 # Real-Time ETL Pipeline
 
 ## Overview
-A real-time data engineering pipeline built using Python, Kafka, PySpark and AWS.
+A real-time ETL pipeline built using Python, Kafka, PySpark and AWS.
 
-## Features
-- Event Producer
-- Event Consumer
-- ETL Transformations
-- PySpark Processing
-- AWS Integration Ready
+## Architecture
 
-## Tech Stack
+Producer → Kafka → Consumer → PySpark Processing → AWS Storage
+
+## Technologies
 - Python
 - Kafka
 - PySpark
 - AWS
+- PostgreSQL
 
 ## Project Structure
+
 src/
 ├── producer.py
 ├── consumer.py
-├── etl.py
-├── spark_job.py
+
+## Features
+- Real-time event streaming
+- Data ingestion
+- Event consumption
+- Data processing
+- Cloud integration
+
+## Future Enhancements
+- AWS Kinesis integration
+- Spark Streaming
+- Monitoring dashboard
